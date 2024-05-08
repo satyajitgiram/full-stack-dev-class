@@ -35,10 +35,46 @@ console.log("This file is running")
 // }
 
 
-for(let i=1; i<=10; i+=1){
-    console.log(19*i)
+// for(let i=1; i<=10; i+=1){
+//     console.log(19*i)
+// }
+
+
+// While loop 
+// let i = 1;
+
+// while(i<=10){
+//     console.log(i*19);
+//     i++;
+// }
+
+// var i = 1;
+// do{
+//     console.log(19*i);
+//     i++;
+// }while(i>10);
+
+
+// const name = "Satyajit"
+
+// console.log(name)
+
+
+// OBJECT
+
+let car = {
+    "brand":"BMW",
+    "model": "X5",
+    "color": "Mat Black",
+    "type": "Sport",
+
+    status: function(){
+        console.log("Car's is running ..... ")
+    }
+
 }
 
+car.status()
 
 
 //
