@@ -1,0 +1,70 @@
+*{
+    margin: 0 0 ;
+    padding: 0 0 ;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #3B3B98;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.container{
+    background-color: #23235B;
+    padding: 20px;
+    width: 350px;
+    
+}
+
+h2{
+    text-align: center;
+    margin: 15px 0;
+}
+
+.result-container{
+    background-color: #151537;
+    height: 50px;
+    padding:10px;
+    position: relative;
+}
+
+.result-container .btn{
+    background-color: #3B3B98;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    right: 5px;
+    height: 40px;
+    width: 40px;
+    top:5px;
+    cursor: pointer;
+    border: none;
+}
+
+.settings .item{
+    display: flex;
+    margin: 15px 0;
+    justify-content: space-between;
+}
+
+#length{
+    width: 70px;
+}
+
+.btn-large{
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    color:white;
+    background-color: #3B3B98;
+    border: none;
+    padding: 8px 15px;
+}
